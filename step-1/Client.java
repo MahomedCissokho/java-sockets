@@ -4,7 +4,9 @@ import java.io.*;
 
 public class Client {
     public static void main(String[] args) {
-        
+        // String request = "";
+        String input = "";
+
         System.out.println("Simple echo client ");
 
         try {
@@ -21,7 +23,6 @@ public class Client {
                 Scanner scanner = new Scanner(System.in);
 
                 System.out.println("Enter a text : ");
-                String input = "";
 
                 while(!input.equalsIgnoreCase("quit")){
 
